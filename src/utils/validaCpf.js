@@ -17,11 +17,4 @@ function validaCpf(cpf) {
     return false;
 }
 
-// condicoes de falha
-// - valida input
-//      - digitos iguais
-//      - nao tem 11 digitos
-// - valida cpf
-//      - falhou verificacao de condicoes
-
 module.exports = validaCpf;
