@@ -15,14 +15,6 @@ rl.question(`Insira o seu CPF (somente números): `, cpf => {
   } else {
     console.log('CPF invalido');
   }
-
-  
-  // if (!validaCpf(cpf)) {
-  //   console.log('Cpf inválido');
-  // } else {
-  //   
-  //   console.log(`${cpfFormatado} é um cpf válido`);
-  // }
   
   rl.close();
 });
